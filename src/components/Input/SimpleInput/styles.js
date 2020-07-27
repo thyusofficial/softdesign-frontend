@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import Tooltip from '../Tooltip';
+import Tooltip from '../../Tooltip';
 
 export const Container = styled.div`
   background: #232129;
@@ -43,8 +43,8 @@ export const Container = styled.div`
     border: 0;
     color: #f4ede8;
 
-    &:placeholder {
-      color: #fff;
+    &::placeholder {
+      color: #666360;
     }
   }
 
